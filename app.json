@@ -1,0 +1,18 @@
+{
+  "name": "Index App",
+  "description": "Ionic template",
+  "website": "",
+  "success_url": "/",
+  "addons": [
+  ],
+  "env": {
+    "NPM_CONFIG_PRODUCTION": "false"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "image": "heroku/nodejs"
+}
