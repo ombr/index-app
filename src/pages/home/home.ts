@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
+import  * as template from './home.pug';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  template: template
 })
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-    
   }
 
 }

@@ -4,9 +4,10 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
 
+import * as template from './app.pug';
 
 @Component({
-  templateUrl: 'app.html'
+  template: template
 })
 export class MyApp {
   rootPage = HomePage;
