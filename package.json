@@ -8,7 +8,7 @@
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "start": "ionic-app-scripts serve -p $PORT"
+    "start": "ionic-app-scripts build && http-server -p $PORT www"
   },
   "dependencies": {
     "@angular/common": "2.4.8",
@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.1.4",
+    "http-server": "0.9.0",
     "pug": "2.0.0-beta11",
     "pug-html-loader": "1.1.1",
     "raw-loader": "0.5.1",

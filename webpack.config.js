@@ -21,7 +21,7 @@ module.exports = {
     loaders: [
       {
         test: /\.pug$/,
-        loader: [ 'pug-html-loader' ]
+        loader: [ 'raw-loader', 'pug-html-loader' ]
       },
       {
         test: /\.json$/,
