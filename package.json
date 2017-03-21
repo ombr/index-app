@@ -54,6 +54,7 @@
   ],
   "description": "Ombrapp: An Ionic project",
   "config": {
+    "ionic_experimental_manual_treeshaking": "true",
     "ionic_webpack": "./webpack.config.js"
   }
 }
